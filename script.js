@@ -17,5 +17,5 @@ form.addEventListener("submit", function (event) {
   } else {
     console.log("wellcome buddy");
     p.remove();
-  }
+}
 });

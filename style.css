@@ -5,15 +5,15 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    min-height: 100vh;
-    background-image: url(assets/images/backgroundimg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  background-image: url(assets/images/backgroundimg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -88,7 +88,6 @@ body {
   display: flex;
   flex-wrap: wrap;
 }
-
 
 .info input {
   height: 40px;
