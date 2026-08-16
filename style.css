@@ -60,6 +60,14 @@ body {
 
 .info .user label {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.error {
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 52px;
+  width: 100%;
 }
 
 .info .icon {
@@ -78,8 +86,9 @@ body {
 
 .info .password label {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
+
 
 .info input {
   height: 40px;
@@ -91,7 +100,7 @@ body {
   margin-left: 18px;
 }
 
-.info .pass {
+.info .pass-icon {
   margin-top: 15px;
 }
 
