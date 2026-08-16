@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    background-image: url(assets/images/backgroundimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  height: 100%;
+  width: 450px;
+  /* min-width: 95%; */
+  color: white;
+  /* margin-top: 70px; */
+  /* margin-top: 10px; */
+  /* align-self: center; */
+}
+
+.form {
+  height: 420px;
+  width: 390px;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5%;
+  /* margin-bottom: 60px; */
+  padding: 20px;
+  background-color: rgba(49, 47, 47, 0.8);
+  flex-direction: column;
+}
+
+.form .text {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.info {
+  height: 128px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info .user {
+  display: flex;
+}
+
+.info .user label {
+  display: flex;
+}
+
+.info .icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px 0 4px;
+  font-size: 22px;
+  margin-left: 10px;
+}
+
+.info .password {
+  display: flex;
+  margin-top: 15px;
+}
+
+.info .password label {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info input {
+  height: 40px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: white;
+  width: 250px;
+  padding-left: 15px;
+  margin-left: 18px;
+}
+
+.info .pass {
+  margin-top: 15px;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-left: 21px;
+}
+
+.tags label {
+  display: flex;
+}
+
+.tags .radio {
+  transform: scale(0.8);
+}
+
+.tags .radio:hover {
+  cursor: pointer;
+}
+
+.tags label h3 {
+  padding-left: 5px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.tags a {
+  color: white;
+  padding-right: 30px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  height: 30px;
+  width: 330px;
+  border: 1px solid white;
+  border-radius: 25px;
+  margin: 20px 0 0 10px;
+  background-color: white;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.signup a {
+  color: white;
+}
+
+.signup h4 {
+  margin-top: 20px;
+  font-weight: 500;
+}
